@@ -1,0 +1,17 @@
+# Ignored folders
+.idea/
+.idea_modules/
+.project/
+.metadata/
+tmp/
+composer.phar
+vendor/
+node_modules/
+npm-debug.log
+
+# Ignored files
+/.env
+/.env.*
+.DS_Store
+Thumbs.db
+*.swp
