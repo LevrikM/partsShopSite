@@ -24,8 +24,9 @@ function addAction($smarty){
         $partImage1 = $_POST["partImage1"] ?? null;
         $partImage2 = $_POST["partImage2"] ?? "";
         $partImage3 = $_POST["partImage3"] ?? "";
-        $addToList = $_POST["addToList"] ?? null;
-        if($addToList != null) $addToList = 1;
+        $addToList = $_POST["addToList"] ?? "";
+        if($addToList == "") $addToList = 0;
+        else $addToList = 1;
         $statusAdd = addPart($partName, $partPrice, $partQuantity, $partBrand, $partImage1, $partImage2, $partImage3, $addToList);
         $smarty -> assign("pageTitle", "Додавання запчастини");
         $smarty -> assign("partName", $partName);

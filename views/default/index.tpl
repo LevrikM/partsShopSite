@@ -30,10 +30,10 @@
             <div class="row justify-content-center mb-3">
                 <div class="col-md-6">
                     <div class="btn-group" role="group" aria-label="Сортування">
-                        <a id="qasc" href="/index/sort/?field=quantity&order=asc" class="btn btn-primary">Сортувати за кількістю (за зростанням)</a>
                         <a id="qdesc" href="/index/sort/?field=quantity&order=desc" class="btn btn-primary">Сортувати за кількістю (за спаданням)</a>
-                        <a id="pasc" href="/index/sort/?field=price&order=asc" class="btn btn-primary">Сортувати за ціною (за зростанням)</a>
+                        <a id="qasc" href="/index/sort/?field=quantity&order=asc" class="btn btn-primary">Сортувати за кількістю (за зростанням)</a>
                         <a id="pdesc" href="/index/sort/?field=price&order=desc" class="btn btn-primary">Сортувати за ціною (за спаданням)</a>
+                        <a id="pasc" href="/index/sort/?field=price&order=asc" class="btn btn-primary">Сортувати за ціною (за зростанням)</a>
                     </div>
                 </div>
             </div>

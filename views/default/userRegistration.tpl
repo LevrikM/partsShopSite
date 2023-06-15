@@ -32,7 +32,15 @@
                         Пароль
                         <span class="text-danger">*</span>
                     </label>
-                    <input type="password" class="form-control" name="userPass" id="userPass" placeholder="Введіть пароль" required>
+                    {literal}
+                    <input type="password"
+                           class="form-control"
+                           name="userPass"
+                           id="userPass"
+                           pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                           title="Має містити принаймні одну цифру, одну велику та малу літеру та принаймні 8 або більше символів"
+                           required>
+                    {/literal}
                 </div>
                 <button type="submit" class="btn btn-primary">Зареєструватись</button>
                 <a href="http://auto/user/auth/" class="btn btn-secondary">Авторизація</a>

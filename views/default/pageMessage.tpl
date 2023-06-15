@@ -12,7 +12,7 @@
         {else}
                         <i class="fas fa-exclamation-circle fa-lg" style="color: #b80000;"></i><br>
                         <span>Помилка при авторизації!</span><br>
-                        <span>Помилка: <b>{$status}</b></span><br>
+                        <span><b>{$status}</b></span><br>
                         <span>Перевірте правильність даних та спробуйте знову</span><br>
                         <a class="btn btn-primary mt-5" href="http://auto/user/auth/">Спробувати ще раз</a>
                         <a class="btn btn-secondary mt-5" href="http://auto/">На головну</a>
@@ -27,9 +27,9 @@
         {else}
                         <i class="fas fa-exclamation-circle fa-lg" style="color: #b80000;"></i><br>
                         <span>Помилка при реєстрації</span><br>
-                        <span>Помилка: <b>{$status}</b></span><br>
+                        <span><b>{$status}</b></span><br>
                         <span>Перевірте правильність даних та спробуйте знову</span><br>
-                        <a class="btn btn-primary mt-5" href="http://auto/user/register/">Спробувати ще раз</a>
+                        <a class="btn btn-primary mt-5" href="http://auto/user/registration/">Спробувати ще раз</a>
                         <a class="btn btn-secondary mt-5" href="http://auto/">На головну</a>
                 {/if}
         {elseif ($action == "exit")}
@@ -48,7 +48,7 @@
                 <i class="fas fa-exclamation-circle fa-lg" style="color: #b80000;"></i><br>
                 <span>Запчастина <b>{$partName}</b> не додана!</span><br>
                 <span>Перевірте правильність даних та спробуйте знову</span><br>
-                <span>Помилка: <b>{$status}</b></span><br>
+                <span><b>{$status}</b></span><br>
                 <a class="btn btn-primary mt-3" href="http://auto/part/add/">Спробувати ще раз</a>
                 <a class="btn btn-secondary mt-3" href="http://auto/">На головну</a>
             {/if}
