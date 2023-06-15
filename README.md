@@ -27,4 +27,6 @@ Telegram: [t.me/xwkwx](https://t.me/xwkwx)
 ![image](https://github.com/LevrikM/partsShopSite/assets/48616642/4527683a-51d0-4422-ad18-62490d3a0f82)
 ![image](https://github.com/LevrikM/partsShopSite/assets/48616642/f0e63a89-fa54-4d0c-9773-694d9f83de3e)
 ![image](https://github.com/LevrikM/partsShopSite/assets/48616642/7a9862a9-289f-4c5f-b5f5-b2a1fb5818bc)
+![image](https://github.com/LevrikM/partsShopSite/assets/48616642/b4e4a148-8e08-4f33-a9d1-e90489e2728f)
+![image](https://github.com/LevrikM/partsShopSite/assets/48616642/6d0873f8-569d-45cf-aa1c-cf06464b58b5)
 
